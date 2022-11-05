@@ -1,22 +1,16 @@
 # Create a Kubernetes Cluster on AWS with EKS tools
 
-## STEP 1 - Create VPC
+## STEPS
 
-aws cloudformation deploy --template-file eks-ipv4-vpc-pub-and-priv-subnets.yaml \
---stack-name wishbliss-v2
+- 1.md
+- 2.md
+- 3.md
+- 4.md
 
-- view progress here...
-`https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringStatus=active&filteringText=&viewNested=true&hideStacks=false`
+## Additional files
 
-- took about 2-3 minutes to complete
+assume-node-policy.json -> `allows the ec2 resources in your account to assume the permissions of this 'service-linked' role`
 
-- `https://eksctl.io/usage/minimum-iam-policies/`
-- `https://www.arin.net/`
-- `https://www.ietf.org/`
+assume-policy.json -> `allows the eks resources in your account to assume the permissions of this 'service-linked' role`
 
-## Issues
-
-Ran into max EIP limit of 5 in region (created for NAT Gateway)
-
-## STEP 2 - Create Control Plane
-
+eks-ipv4-vpc-pub-and-priv-subnets.yaml -> `yaml file with a cloudformation template for creating a vpc with 4 subnets - 2 public and 2 private`
