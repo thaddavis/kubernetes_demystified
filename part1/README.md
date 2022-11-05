@@ -1,4 +1,4 @@
-# Create a Kubernetes Cluster on AWS with EKS tools
+# Create a Kubernetes Cluster on AWS with aws eks cli
 
 ## STEPS
 
