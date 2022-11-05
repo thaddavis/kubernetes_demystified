@@ -1,0 +1,268 @@
+{
+    "StackResources": [
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "ControlPlaneSecurityGroup",
+            "PhysicalResourceId": "sg-0c3f19d0a428a1bba",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "Timestamp": "2022-11-05T18:53:17.460000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "InternetGateway",
+            "PhysicalResourceId": "igw-0a7018bac27caaefe",
+            "ResourceType": "AWS::EC2::InternetGateway",
+            "Timestamp": "2022-11-05T18:53:13.254000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "NatGateway01",
+            "PhysicalResourceId": "nat-0eb9a1cdf45c2d568",
+            "ResourceType": "AWS::EC2::NatGateway",
+            "Timestamp": "2022-11-05T18:55:34.623000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "NatGateway02",
+            "PhysicalResourceId": "nat-0faebcfb4fe04a9d6",
+            "ResourceType": "AWS::EC2::NatGateway",
+            "Timestamp": "2022-11-05T18:55:18.556000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "NatGatewayEIP1",
+            "PhysicalResourceId": "52.44.215.117",
+            "ResourceType": "AWS::EC2::EIP",
+            "Timestamp": "2022-11-05T18:53:51.083000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "NatGatewayEIP2",
+            "PhysicalResourceId": "44.212.118.194",
+            "ResourceType": "AWS::EC2::EIP",
+            "Timestamp": "2022-11-05T18:53:50.807000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateRoute01",
+            "PhysicalResourceId": "wishb-Priva-1RANAST32DQFV",
+            "ResourceType": "AWS::EC2::Route",
+            "Timestamp": "2022-11-05T18:55:52.837000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateRoute02",
+            "PhysicalResourceId": "wishb-Priva-1EROA8PEX40L",
+            "ResourceType": "AWS::EC2::Route",
+            "Timestamp": "2022-11-05T18:55:37.774000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateRouteTable01",
+            "PhysicalResourceId": "rtb-0b013acd13eb3d842",
+            "ResourceType": "AWS::EC2::RouteTable",
+            "Timestamp": "2022-11-05T18:53:24.619000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateRouteTable02",
+            "PhysicalResourceId": "rtb-0189d9948f86ce3aa",
+            "ResourceType": "AWS::EC2::RouteTable",
+            "Timestamp": "2022-11-05T18:53:25.568000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateSubnet01",
+            "PhysicalResourceId": "subnet-06247ae1cb57aa66a",
+            "ResourceType": "AWS::EC2::Subnet",
+            "Timestamp": "2022-11-05T18:53:17.491000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateSubnet01RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-01f9b09198c0d5f55",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "Timestamp": "2022-11-05T18:53:29.422000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateSubnet02",
+            "PhysicalResourceId": "subnet-071664dc7722e82ce",
+            "ResourceType": "AWS::EC2::Subnet",
+            "Timestamp": "2022-11-05T18:53:17.354000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PrivateSubnet02RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-08e119b16d115a899",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "Timestamp": "2022-11-05T18:53:31.186000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PublicRoute",
+            "PhysicalResourceId": "wishb-Publi-3WPRGU7MAK5O",
+            "ResourceType": "AWS::EC2::Route",
+            "Timestamp": "2022-11-05T18:53:48.794000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PublicRouteTable",
+            "PhysicalResourceId": "rtb-04d40f73c8645c866",
+            "ResourceType": "AWS::EC2::RouteTable",
+            "Timestamp": "2022-11-05T18:53:25.049000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PublicSubnet01",
+            "PhysicalResourceId": "subnet-02fb3829efdca3c2f",
+            "ResourceType": "AWS::EC2::Subnet",
+            "Timestamp": "2022-11-05T18:53:17.985000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PublicSubnet01RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-0e92009a23d2bb92f",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "Timestamp": "2022-11-05T18:53:30.742000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PublicSubnet02",
+            "PhysicalResourceId": "subnet-01ba7d9a0c2053e84",
+            "ResourceType": "AWS::EC2::Subnet",
+            "Timestamp": "2022-11-05T18:53:17.836000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "PublicSubnet02RouteTableAssociation",
+            "PhysicalResourceId": "rtbassoc-0c92cd487033972c8",
+            "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+            "Timestamp": "2022-11-05T18:53:30.613000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "VPC",
+            "PhysicalResourceId": "vpc-055cdd61d662372b2",
+            "ResourceType": "AWS::EC2::VPC",
+            "Timestamp": "2022-11-05T18:53:09.887000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "wishbliss-v2",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/wishbliss-v2/08f41160-5d3b-11ed-9881-120a289fc231",
+            "LogicalResourceId": "VPCGatewayAttachment",
+            "PhysicalResourceId": "wishb-VPCGa-16QSTLGLN658Z",
+            "ResourceType": "AWS::EC2::VPCGatewayAttachment",
+            "Timestamp": "2022-11-05T18:53:30.956000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
