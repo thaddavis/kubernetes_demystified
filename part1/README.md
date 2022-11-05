@@ -18,5 +18,5 @@ aws cloudformation deploy --template-file eks-ipv4-vpc-pub-and-priv-subnets.yaml
 
 Ran into max EIP limit of 5 in region (created for NAT Gateway)
 
-## STEP 2
+## STEP 2 - Create Control Plane
 
