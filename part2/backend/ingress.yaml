@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ruby-be-ingress
+  namespace: ruby-be
+  annotations:
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:333427308013:certificate/e396d09f-99f2-4e47-af95-94913e64b41d
+    alb.ingress.kubernetes.io/scheme: internet-facing
+spec:
+  ingressClassName: alb
+  rules:
+    - host: api.wishbliss.link
+      http:
+        paths:
+          - path: /*
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: ruby-be-service
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - api.wishbliss.link # change it to your host name here

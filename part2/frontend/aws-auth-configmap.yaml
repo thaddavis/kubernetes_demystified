@@ -1,0 +1,17 @@
+kind: ConfigMap
+apiVersion: v1
+data:
+  mapRoles: |
+    - rolearn: arn:aws:iam::333427308013:role/wishbliss-v2-eks-role-nodes
+      username: system:node:{{EC2PrivateDNSName}}
+      groups:
+      - system:bootstrappers
+      - system:nodes
+  mapUsers: |
+    - userarn: arn:aws:iam::333427308013:user/monitor-eks
+      username: monitor-eks
+      groups:
+      - eks-console-dashboard-full-access-group
+metadata:
+  name: aws-auth
+  namespace: kube-system
