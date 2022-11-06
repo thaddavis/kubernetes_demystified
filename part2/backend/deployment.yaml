@@ -1,0 +1,20 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: ruby-be
+  namespace: ruby-be
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ruby-be
+  template:
+    metadata:
+      labels:
+        app: ruby-be
+    spec:
+      containers:
+        - name: ruby-be
+          image: thaddavis/ruby-docker:v11
+          ports:
+            - containerPort: 3000
