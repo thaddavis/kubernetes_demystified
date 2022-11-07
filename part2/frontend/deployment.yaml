@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: react-fe
-          image: thaddavis/react-docker:v10
+          image: thaddavis/react-docker:v23
           ports:
             - containerPort: 80
