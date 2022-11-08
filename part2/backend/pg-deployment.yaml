@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pg-db
+  namespace: pg-db
+  labels:
+    app: pg-db
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: pg-db
+  template:
+    metadata:
+      name: postgres
+      labels:
+        app: pg-db
+    spec:
+      volumes:
+      - name: pg-pv
+        persistentVolumeClaim:
+          claimName: ebs-claim
+      containers:
+      - name: postgres
+        image: postgres:14-alpine
+        env:
+        - name: POSTGRES_USER
+          value: admin
+        - name: POSTGRES_PASSWORD
+          value: mysecretpassword
+        - name: POSTGRES_DB
+          value: my_database
+        - name: PGDATA
+          value: "/var/lib/postgresql/data/pgdata"
+        ports:
+        - containerPort: 5432
+        volumeMounts:
+        - mountPath: "/var/lib/postgresql/data"
+          name: pg-pv

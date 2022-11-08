@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: ruby-be
-          image: thaddavis/ruby-docker:v11
+          image: thaddavis/ruby-docker:v22
           ports:
             - containerPort: 3000
